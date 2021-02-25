@@ -12,7 +12,6 @@ const ToDoContainer = () => {
 
     useEffect(() => {
         request.get('/api/todos').then((toDo) => {
-            console.log(toDo.data)
             setData(toDo.data)
         })
     }, [])

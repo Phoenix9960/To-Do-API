@@ -15,9 +15,12 @@ const CreateToDo = () => {
                 isCompleted: false, 
                 student: data.student
             }
-            }).then(res => console.log(res))
+            }).then(reload())
     }
 
+    const reload = () => {
+        window.location.reload()
+    }
     
     return(
         <div>

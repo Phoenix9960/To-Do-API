@@ -7,7 +7,7 @@ const ToDoItem = ( {id, task, isComplete, student} ) => {
         axios({
             method : 'DELETE',
             url : 'https://todos-academlo.herokuapp.com/api/todo/'+id
-            }).then(res => console.log(res))
+            }).then(reload())
     }
 
     const updateTask = () => {
@@ -19,10 +19,12 @@ const ToDoItem = ( {id, task, isComplete, student} ) => {
                 isCompleted: !isComplete, 
                 student
             }
-            }).then(res => console.log(res))
+            }).then(reload())
     }
 
-
+    const reload = () => {
+        window.location.reload()
+    }
 
     return(
         <div className= "toDoStyle">

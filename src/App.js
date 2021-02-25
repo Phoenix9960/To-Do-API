@@ -13,4 +13,9 @@ function App() {
   );
 }
 
+// Squad 
+// INtegrantes:
+// Aguilar Mendoza Felix Nemecio
+// Cruz Cardenas Jose Nathaniel
+
 export default App;
