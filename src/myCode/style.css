@@ -1,0 +1,29 @@
+
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.formStyle > button {
+    margin: auto;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.toDoStyle {
+    display: flex;
+    margin: auto;
+}
+
+.optionStyle {
+    margin: 0 15px;
+}
+
+.optionStyle > button{
+    margin: 0 5px;
+}
